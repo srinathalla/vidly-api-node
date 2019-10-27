@@ -13,6 +13,7 @@ router.get("/me", auth, async (req, res) => {
   res.send(user);
 });
 
+// post api.
 router.post("/", async (req, res) => {
   const {
     error
